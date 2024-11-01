@@ -251,7 +251,7 @@ def bbq_tap():
 while True:
     response = bbq_tap()
     if 'data' in response:
-        print(f"âš¡ Coins Added! Total Coins: {response['data']} ðŸª™")
+        print(f"FORESTARMY Coins Added! Total Coins: {response['data']} TG: FORESTARMY")
     else:
-        print("âš¡ Unexpected response format:", response)
+        print("FORESTARMY Unexpected response format:", response)
     time.sleep(1)  # Wait for 1 second before the next request
